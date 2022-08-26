@@ -2,7 +2,7 @@ import React from "react";
 import { PageWrapper } from "~components/Core";
 import HeroSection from "~sections/services/Hero";
 import ServicesSection from "~sections/services/Services";
-import AboutSection from "~sections/services/About";
+// import AboutSection from "~sections/services/About";
 import ContentSectionOne from "~sections/services/ContentOne";
 import ProcessSection from "~sections/services/Process";
 import PromoSection from "~sections/services/Promo";
@@ -31,7 +31,7 @@ export default function Services() {
   return (
     <PageWrapper headerConfig={header}>
       <HeroSection />
-      <AboutSection />
+      {/* <AboutSection /> */}
       <ServicesSection />
       <ContentSectionOne />
       <ProcessSection />
