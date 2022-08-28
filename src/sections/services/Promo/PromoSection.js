@@ -27,7 +27,7 @@ export default function PromoSection({ ...rest }) {
               <Promo.Button
                 className="btn-torch-red"
                 as="a"
-                href="#"
+                href="tel:(866) 503-7025"
                 sizeX="180px"
                 sizeY="56px"
                 mt="20px"

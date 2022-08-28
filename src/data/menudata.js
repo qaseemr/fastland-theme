@@ -5,14 +5,14 @@ export const menuItems = [
     name: "",
     label: "Services",
     items: [
-      { name: "", label: "Answering" },
-      { name: "project", label: "Voice Mail" },
-      { name: "it", label: "vFax" },
-      { name: "services", label: "Scheduling" },
+      { name: "#services", label: "Answering" },
+      { name: "#services", label: "Voice Mail" },
+      { name: "#services", label: "vFax" },
+      { name: "#services", label: "Scheduling" },
     ],
   },
   {
-    name: "pages",
+    name: "#packages",
     label: "Packages",
     // items: [
     //   { name: "about-us", label: "About Us" },
@@ -81,7 +81,7 @@ export const menuItems = [
     // ],
   },
   {
-    name: "megamenu",
+    name: "#testimonials",
     label: "Testimonials",
     // megamenu: true,
     // col: 12,
@@ -215,9 +215,8 @@ export const menuItems = [
     // },
   },
   {
-    name: "https://uxtheme.net/product-support/",
+    name: "#contactus",
     label: "Contact Us",
-    isExternal: true,
   },
 ];
 export default menuItems;

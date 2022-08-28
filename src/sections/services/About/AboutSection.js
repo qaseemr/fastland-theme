@@ -12,12 +12,14 @@ export default function AboutSection({ ...rest }) {
           <Col xs="12" className="col-xl-5 col-lg-5 col-md-7 col-xs-8">
             <About.Image mb="30px" mbLG="0">
               <img
+                style={{ borderRadius: "20px" }}
                 src="image/home-services/about-us-image-l4-1.png"
                 alt="about"
                 className="w-100"
               />
               <About.ImageInner>
                 <img
+                  style={{ borderRadius: "20px" }}
                   src="image/home-services/about-us-image-l4-2.png"
                   alt="about"
                   className="w-100"

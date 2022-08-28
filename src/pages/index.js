@@ -20,6 +20,7 @@ const header = {
   buttonBlock: (
     <HeaderButton
       className="ms-auto d-none d-xs-inline-flex"
+      btnLink="tel:(866) 503-7025"
       btnText="Call Us"
       mr="15px"
       mrLG="0"
@@ -32,13 +33,14 @@ export default function Services() {
     <PageWrapper headerConfig={header}>
       <HeroSection />
       <AboutSection />
-      <ServicesSection />
+      <ServicesSection id="services" />
       <ContentSectionOne />
       <ProcessSection />
       <PromoSection />
-      <PricingSection />
+      <PricingSection id="packages" />
+      <div id="testimonials"></div>
       <TestimonialSection />
-      <ContactSection />
+      <ContactSection id="contactus" />
       <FooterFour />
     </PageWrapper>
   );
