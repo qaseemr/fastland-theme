@@ -9,7 +9,7 @@ export default function HeroSection() {
     <Hero
       overlay="image/home-services/hero-overlay.png"
       style={{
-        backgroundImage: `url("image/home-services/hero-l4-image.png")`,
+        backgroundImage: `url("image/home-services/hero-l4-image.jpg")`,
       }}
     >
       <Container>
