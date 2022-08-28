@@ -24,25 +24,37 @@ export default function PricingSection({ ...rest }) {
             xs="12"
             className="col-xxl-3 col-lg-4 col-md-6 col-sm-8 col-xs-9"
           >
-            <PricingCard title="Basic Package" pricetag="20" />
+            <PricingCard title="Basic Package" L1="None*" pricetag="33" />
           </Col>
           <Col
             xs="12"
             className="col-xxl-3 col-lg-4 col-md-6 col-sm-8 col-xs-9"
           >
-            <PricingCard title="Small Business" pricetag="50" />
+            <PricingCard
+              title="Small Business"
+              L1="100 Calls/Mo."
+              pricetag="89"
+            />
           </Col>
           <Col
             xs="12"
             className="col-xxl-3 col-lg-4 col-md-6 col-sm-8 col-xs-9"
           >
-            <PricingCard title="Medium Business" pricetag="60" />
+            <PricingCard
+              title="Medium Business"
+              L1="250 Calls/Mo."
+              pricetag="199"
+            />
           </Col>
           <Col
             xs="12"
             className="col-xxl-3 col-lg-4 col-md-6 col-sm-8 col-xs-9"
           >
-            <PricingCard title="Enterprise Business" pricetag="80" />
+            <PricingCard
+              title="Enterprise Business"
+              L1="2500 Calls/Mo."
+              pricetag="1699"
+            />
           </Col>
         </Row>
       </Container>
